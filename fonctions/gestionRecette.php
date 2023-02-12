@@ -120,6 +120,7 @@ function deleteRecette($idRecette)
 
   // prépare la requete
   $pst = $bdd->prepare($sql);
+  //blabla
 
   // bind les valeurs avec les paramètres de la requete
   $pst->bindValue("idRecette", $idRecette);
